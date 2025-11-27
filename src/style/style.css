@@ -1,0 +1,119 @@
+
+/* component Navbar */
+.nav-container{
+    display:flex;
+    justify-content:center;
+    margin:10px;
+
+}
+
+.navbar{
+    background-color:oklch(96.8% 0.007 247.896);   
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:15px;
+    width:45%;
+    height:40px;
+    border:none;
+    border-radius:50px;
+
+    
+
+}
+
+.navbar a{
+    text-decoration:none;
+    color:black;
+
+}
+
+
+/* component Home */
+.Home{
+    margin:10px;
+     display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:row;
+    gap:25px;
+
+}
+
+.Home .welcome{
+    width:50%;
+    margin:20px;
+}
+
+
+.Home .HeroImage{
+    width:50%;
+     margin:20px;
+}
+
+.Home .HeroImage img{
+    width:80%;
+    height:50%;
+}
+
+.follow{
+    margin:5px;
+     display:flex;
+    /* justify-content:center;
+    align-items:center; */
+    flex-direction:row;
+    gap:10px;
+}
+.social-icons{
+  display:flex;
+  gap:10px;
+}
+.icons{
+width:15px;
+}
+
+
+/* About */
+.About{
+ margin:10px;
+     display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:row;
+    gap:25px;
+
+}
+
+.About .aboutme{
+    margin:20px;
+    width:50%;
+}
+
+.About .profieImage{
+    width:50%;
+}
+
+
+.profieImage img{
+    width:80%;
+}
+
+.aboutme{
+    margin:10px;
+}
+.myInfo{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:row;
+    gap:25px;
+    margin-top:30px;
+}
+.card .titleCard{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:row;
+    gap:5px;
+
+}
