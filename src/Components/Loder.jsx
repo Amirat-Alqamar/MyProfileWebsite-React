@@ -1,4 +1,8 @@
 import React, { useEffect, useState } from "react";
+import laptopIcon from "../assets/images/laptop-computer.svg";
+import codeProgramingIcon from "../assets/images/code-programing-symbol-svgrepo-com.svg";
+import girlIcon from "../assets/images/girl-studying-on-a-laptop-svgrepo-com.svg";
+import codeIcon from "../assets/images/code.svg";
 
 /**
  * Loader component
@@ -59,7 +63,7 @@ export default function Loader({ onFinish }) {
           aria-hidden="true"
         >
           {/* يمكنك استبدال هذه الأيموجي بـ SVG لشعارك */}
-          <span role="img" aria-label="logo"><img className="w-20" src="src/assets/images/laptop-computer.svg" alt="laptop-computer.svg" /></span>
+          <span role="img" aria-label="logo"><img className="w-20" src={laptopIcon} alt="laptop-computer.svg" /></span>
         </div>
 
         {/* الجملة تحت الأيقونة */}
@@ -79,7 +83,7 @@ export default function Loader({ onFinish }) {
             "text-2xl transition-opacity duration-300 " +
             (visibleIcons[0] ? "opacity-100 translate-y-0" : "opacity-0 translate-y-2")
           }>
-            <span role="img" aria-label="html"><img className="w-5" src="src/assets/images/code.svg" alt="" /></span>
+            <span role="img" aria-label="html"><img className="w-5" src={codeIcon} alt="codeIcon" /></span>
           </div>
 
           {/** أيقونة 2 */}
@@ -87,7 +91,7 @@ export default function Loader({ onFinish }) {
             "text-2xl transition-opacity duration-300 " +
             (visibleIcons[1] ? "opacity-100 translate-y-0" : "opacity-0 translate-y-2")
           }>
-            <span role="img" aria-label="react"><img className="w-5" src="src/assets/images/girl-studying-on-a-laptop-svgrepo-com.svg" alt="" /></span>
+            <span role="img" aria-label="react"><img className="w-5" src={girlIcon} alt="girlIcon" /></span>
           </div>
 
           {/** أيقونة 3 */}
@@ -95,7 +99,7 @@ export default function Loader({ onFinish }) {
             "text-2xl transition-opacity duration-300 " +
             (visibleIcons[2] ? "opacity-100 translate-y-0" : "opacity-0 translate-y-2")
           }>
-            <span role="img" aria-label="css"><img className="w-5" src="src/assets/images/code-programing-symbol-svgrepo-com.svg" alt="" /></span>
+            <span role="img" aria-label="css"><img className="w-5" src={codeProgramingIcon} alt="codeProgramingIcon" /></span>
           </div>
         </div>
       </div>

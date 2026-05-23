@@ -1,4 +1,5 @@
 import React from 'react';
+import githubIcon from "../assets/images/github-svgrepo-com.svg";
 
 export default function ProjectCard({ title, description, image, technologies, github }) {
   return (
@@ -37,7 +38,7 @@ export default function ProjectCard({ title, description, image, technologies, g
           rel="noopener noreferrer"
           className="flex flex-row items-center justify-center gap-2 px-5 py-1.5 bg-black text-white text-xs font-semibold rounded-full hover:bg-cyan-600 transition-colors duration-300 shadow-sm"
         >
-          <img className='w-4 h-4 brightness-0 invert' src="src/assets/images/github-svgrepo-com.svg" alt="GitHub icon" />
+          <img className='w-5 h-5 invert' src={githubIcon} alt="GitHub icon" />
           <span>GitHub</span>
         </a>
       </div>

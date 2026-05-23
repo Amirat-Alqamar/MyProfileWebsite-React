@@ -1,10 +1,16 @@
 import React from "react";
+import messageIcon from "../assets/images/message-svgrepo-com.svg";
+import phoneIcon from "../assets/images/phone-svgrepo-com.svg";
+import locationIcon from "../assets/images/location-pin-alt-1-svgrepo-com.svg";
+import instagramIcon from "../assets/images/instagram-svgrepo-com.svg";
+import LinkeinIcon from "../assets/images/linkedin-linked-in-svgrepo-com.svg";
+import whatsappIcon from "../assets/images/whatsapp-svgrepo-com.svg";
 
 function Contact(props) {
   return (
     <div className="container px-4 mx-auto">
       <section className="py-12 md:py-20" id="contact">
-        <h5 className="text-sm font-semibold tracking-wider text-center uppercase text-cyan-600">Contact Me</h5>
+        <h5 className="font-semibold tracking-wider text-center uppercase text-md text-cyan-600">Contact Me</h5>
         <h2 className="mt-2 mb-10 text-3xl font-bold text-center text-slate-800">Get in Touch with us</h2>
 
         <div className="flex flex-col items-start justify-center max-w-5xl gap-10 mx-auto md:flex-row md:gap-16">
@@ -16,7 +22,7 @@ function Contact(props) {
               <span className="flex items-center justify-center w-9 h-9 rounded-xl bg-cyan-100 text-cyan-600">
                 <img
                   className="w-5 h-5"
-                  src="src/assets/images/message-svgrepo-com.svg"
+                  src={messageIcon}
                   alt="message"
                 />
               </span>
@@ -27,7 +33,7 @@ function Contact(props) {
               <span className="flex items-center justify-center w-9 h-9 rounded-xl bg-cyan-100 text-cyan-600">
                 <img
                   className="w-5 h-5"
-                  src="src/assets/images/phone-svgrepo-com.svg"
+                  src={phoneIcon}
                   alt="phone"
                 />
               </span>
@@ -38,7 +44,7 @@ function Contact(props) {
               <span className="flex items-center justify-center w-9 h-9 rounded-xl bg-cyan-100 text-cyan-600">
                 <img
                   className="w-5 h-5"
-                  src="src/assets/images/location-pin-alt-1-svgrepo-com.svg"
+                  src={locationIcon}
                   alt="location"
                 />
               </span>
@@ -50,13 +56,13 @@ function Contact(props) {
             {/* أزرار التواصل الاجتماعي */}
             <div className="flex flex-row justify-center gap-3 pt-2 md:justify-start">
               <span className='flex items-center justify-center w-8 h-8 transition-colors duration-300 rounded-full cursor-pointer bg-slate-200 hover:bg-blue-200'>
-                <img className="w-4 h-4" src="src/assets/images/linkedin-linked-in-svgrepo-com.svg" alt="LinkedIn" />
+                <img className="w-4 h-4" src={LinkeinIcon} alt="LinkedIn" />
               </span>
               <span className='flex items-center justify-center w-8 h-8 transition-colors duration-300 rounded-full cursor-pointer bg-slate-200 hover:bg-pink-200'>
-                <img className="w-4 h-4" src="src/assets/images/instagram-svgrepo-com.svg" alt="Instagram" />
+                <img className="w-4 h-4" src={instagramIcon} alt="Instagram" />
               </span>
               <span className='flex items-center justify-center w-8 h-8 transition-colors duration-300 rounded-full cursor-pointer bg-slate-200 hover:bg-green-200'>
-                <img className="w-4 h-4" src="src/assets/images/whatsapp-svgrepo-com .svg" alt="WhatsApp" />
+                <img className="w-4 h-4" src={whatsappIcon} alt="WhatsApp" />
               </span>
             </div>
           </div>

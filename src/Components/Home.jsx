@@ -1,4 +1,13 @@
 import React from 'react';
+import profilePhoto from "../assets/images/profilephoto1.png";
+import githubIcon from "../assets/images/github-svgrepo-com.svg";
+import instagramIcon from "../assets/images/instagram-svgrepo-com.svg";
+import LinkeinIcon from "../assets/images/linkedin-linked-in-svgrepo-com.svg";
+import whatsappIcon from "../assets/images/whatsapp-svgrepo-com.svg";
+import locationIcon from "../assets/images/location-pin-alt-1-svgrepo-com.svg";
+import bagIcon from "../assets/images/bag-svgrepo-com.svg";
+import downloadIcon from "../assets/images/download-svgrepo-com (1).svg";
+
 
 function Home() {
     return (
@@ -20,19 +29,19 @@ function Home() {
                    {/* الموقع والحالة */}
                    <div className='flex flex-row flex-wrap gap-6 my-4'>
                         <div className='flex flex-row items-center gap-1'>
-                            <img className='w-5 h-5' src="src/assets/images/location-pin-alt-1-svgrepo-com.svg" alt="Location" />
+                            <img className='w-5 h-5' src={locationIcon} alt="Location" />
                             <p className='font-normal text-slate-500'>Syria</p>
                         </div>
 
                         <div className='flex flex-row items-center gap-1'>
-                            <img className='w-5 h-5' src="src/assets/images/bag-svgrepo-com.svg" alt="Availability" />
+                            <img className='w-5 h-5' src={bagIcon} alt="Availability" />
                             <p className='font-normal text-slate-500'>Available Now</p>
                         </div>
                    </div>
 
                    {/* زر تحميل السيرة الذاتية */}
                    <button className='flex flex-row items-center gap-2 px-4 py-2 font-sans font-medium text-white transition duration-300 ease-in-out rounded-lg shadow-md w-fit bg-cyan-500 hover:bg-cyan-600 hover:-translate-y-1 hover:scale-105'>
-                        <img className='w-4 h-4 brightness-0 invert' src="src/assets/images/download-svgrepo-com (1).svg" alt="download" />
+                        <img className='w-4 h-4 brightness-0 invert' src={downloadIcon} alt="download" />
                         <span className='text-sm'>Download CV</span>
                    </button>
 
@@ -43,16 +52,16 @@ function Home() {
                         <p className='font-medium text-slate-700'>Follow me:</p>
                         <div className="flex flex-row gap-3">
                             <span className='flex items-center justify-center p-1 transition duration-300 ease-in-out rounded-full cursor-pointer hover:bg-violet-200 hover:-translate-y-1 hover:scale-110'> 
-                                <img className="w-6 h-6" src="src/assets/images/github-svgrepo-com.svg" alt="Github" />
+                                <img className="w-6 h-6" src={githubIcon} alt="Github" />
                             </span> 
                             <span className='flex items-center justify-center p-1 transition duration-300 ease-in-out rounded-full cursor-pointer hover:bg-blue-200 hover:-translate-y-1 hover:scale-110'>
-                                <img className="w-6 h-6" src="src/assets/images/linkedin-linked-in-svgrepo-com.svg" alt="LinkedIn" />
+                                <img className="w-6 h-6" src={LinkeinIcon} alt="LinkedIn" />
                             </span>
                             <span className='flex items-center justify-center p-1 transition duration-300 ease-in-out rounded-full cursor-pointer hover:bg-pink-200 hover:-translate-y-1 hover:scale-110'>
-                                <img className="w-6 h-6" src="src/assets/images/instagram-svgrepo-com.svg" alt="Instagram" />
+                                <img className="w-6 h-6" src={instagramIcon} alt="Instagram" />
                             </span>
                             <span className='flex items-center justify-center p-1 transition duration-300 ease-in-out rounded-full cursor-pointer hover:bg-green-200 hover:-translate-y-1 hover:scale-110'>
-                                <img className="w-6 h-6" src="src/assets/images/whatsapp-svgrepo-com .svg" alt="WhatsApp" />
+                                <img className="w-6 h-6" src={whatsappIcon} alt="WhatsApp" />
                             </span>
                         </div>
                    </div>
@@ -61,7 +70,7 @@ function Home() {
 
                 {/* الصورة الشخصية */}
                 <div className="w-[70%] md:w-[40%] flex justify-center items-center">
-                     <img className="object-contain w-full h-auto max-w-sm" src="src/assets/images/profilephoto1.png" alt="Amira Illustration" />
+                     <img className="object-contain w-full h-auto max-w-sm" src={profilePhoto} alt="Amira Illustration" />
                 </div>
                
             </section>
