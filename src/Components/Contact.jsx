@@ -10,7 +10,7 @@ function Contact(props) {
   return (
     <div className="container px-4 mx-auto">
       <section className="py-12 md:py-20" id="contact">
-        <h5 className="font-semibold tracking-wider text-center uppercase text-md text-cyan-600">Contact Me</h5>
+        <h5 className="text-2xl font-bold tracking-wider text-center uppercase text-cyan-600">Contact Me</h5>
         <h2 className="mt-2 mb-10 text-3xl font-bold text-center text-slate-800">Get in Touch with us</h2>
 
         <div className="flex flex-col items-start justify-center max-w-5xl gap-10 mx-auto md:flex-row md:gap-16">
@@ -26,7 +26,7 @@ function Contact(props) {
                   alt="message"
                 />
               </span>
-              <p className="text-sm font-medium text-slate-700">Amira@gmail.com</p>
+              <p className="text-sm font-medium text-slate-700">hmamyamiratalqamar@gmail.com</p>
             </div>
 
             <div className="flex flex-row items-center gap-3">

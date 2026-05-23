@@ -7,6 +7,7 @@ import whatsappIcon from "../assets/images/whatsapp-svgrepo-com.svg";
 import locationIcon from "../assets/images/location-pin-alt-1-svgrepo-com.svg";
 import bagIcon from "../assets/images/bag-svgrepo-com.svg";
 import downloadIcon from "../assets/images/download-svgrepo-com (1).svg";
+import CV from "../assets/CV-File/Amirat-alqamar-hemami.pdf";
 
 
 function Home() {
@@ -40,10 +41,16 @@ function Home() {
                    </div>
 
                    {/* زر تحميل السيرة الذاتية */}
-                   <button className='flex flex-row items-center gap-2 px-4 py-2 font-sans font-medium text-white transition duration-300 ease-in-out rounded-lg shadow-md w-fit bg-cyan-500 hover:bg-cyan-600 hover:-translate-y-1 hover:scale-105'>
+                   <a 
+                    href={CV} 
+                    download="Amirat-alqamar-hemami.pdf" 
+                    className='flex flex-row items-center gap-2 px-4 py-2 font-sans font-medium text-white no-underline transition duration-300 ease-in-out rounded-lg shadow-md w-fit bg-cyan-500 hover:bg-cyan-600 hover:-translate-y-1 hover:scale-105'
+                    >
                         <img className='w-4 h-4 brightness-0 invert' src={downloadIcon} alt="download" />
                         <span className='text-sm'>Download CV</span>
-                   </button>
+                    </a>
+
+                
 
                    <hr className='my-6 border-slate-200' />
                    
