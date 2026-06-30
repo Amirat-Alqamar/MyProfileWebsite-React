@@ -1,5 +1,5 @@
 import weatherApp from "../assets/images/weatherApp.png";
-import PentellaPlatform from "../assets/images/Pentella.png";
+import PentellaPlatform from "../assets/images/pentella.png";
 import medicalApp from "../assets/images/medical.png";
 import laravelApp from "../assets/images/laravel.png";
 import servicesApp from "../assets/images/services.png";
