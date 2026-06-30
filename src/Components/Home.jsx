@@ -64,7 +64,7 @@ function Home() {
                                 </a>
                             </span> 
                             <span className='flex items-center justify-center p-1 transition duration-300 ease-in-out rounded-full cursor-pointer hover:bg-blue-200 hover:-translate-y-1 hover:scale-110'>
-                                <a href="https://www.linkedin.com/in/amirat-alqamar/" target="_blank" rel="noopener noreferrer">
+                                <a href="https://www.linkedin.com/in/amirat-alqamar-hemami-1ab0a4318" target="_blank" rel="noopener noreferrer">
                                     <img className="w-6 h-6" src={LinkeinIcon} alt="LinkedIn" />
                                 </a>
                             </span>
