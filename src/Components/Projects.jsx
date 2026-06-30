@@ -15,6 +15,8 @@ function Projects() {
             description={project.description}
             technologies={project.technologies}
             github={project.github}
+            live={project.live}
+            video={project.video}
           />
         ))}
       </div>

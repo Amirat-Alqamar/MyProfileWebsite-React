@@ -11,7 +11,7 @@ function About(props) {
       <section className="flex flex-col-reverse md:flex-row items-center justify-center min-h-[70vh] gap-10 md:gap-16 py-10" id="about">
         
         {/* النصوص والمعلومات */}
-        <div className="w-full md:w-[55%] flex flex-col justify-center px-4 md:px-0">
+        <div className="w-full md:w-[55%] flex flex-col justify-center px-4 ml-10">
           <h2 className="font-sans text-3xl font-bold text-slate-700">About Me</h2>
           <p className="max-w-2xl my-5 leading-relaxed text-gray-700 text-md ">
             I work on transforming ideas into fully integrated digital products,

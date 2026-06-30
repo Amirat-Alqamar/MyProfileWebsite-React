@@ -58,11 +58,15 @@ function Home() {
                    <div className="flex flex-row items-center gap-4">
                         <p className='font-medium text-slate-700'>Follow me:</p>
                         <div className="flex flex-row gap-3">
-                            <span className='flex items-center justify-center p-1 transition duration-300 ease-in-out rounded-full cursor-pointer hover:bg-violet-200 hover:-translate-y-1 hover:scale-110'> 
-                                <img className="w-6 h-6" src={githubIcon} alt="Github" />
+                            <span className='flex items-center justify-center p-1 transition duration-300 ease-in-out rounded-full cursor-pointer hover:bg-black hover:-translate-y-1 hover:scale-110'> 
+                                <a href="https://github.com/Amirat-Alqamar" target="_blank" rel="noopener noreferrer">
+                                    <img className="w-6 h-6" src={githubIcon} alt="Github" />
+                                </a>
                             </span> 
                             <span className='flex items-center justify-center p-1 transition duration-300 ease-in-out rounded-full cursor-pointer hover:bg-blue-200 hover:-translate-y-1 hover:scale-110'>
-                                <img className="w-6 h-6" src={LinkeinIcon} alt="LinkedIn" />
+                                <a href="https://www.linkedin.com/in/amirat-alqamar/" target="_blank" rel="noopener noreferrer">
+                                    <img className="w-6 h-6" src={LinkeinIcon} alt="LinkedIn" />
+                                </a>
                             </span>
                             <span className='flex items-center justify-center p-1 transition duration-300 ease-in-out rounded-full cursor-pointer hover:bg-pink-200 hover:-translate-y-1 hover:scale-110'>
                                 <img className="w-6 h-6" src={instagramIcon} alt="Instagram" />

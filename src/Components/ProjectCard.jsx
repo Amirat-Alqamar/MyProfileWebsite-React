@@ -1,7 +1,8 @@
 import React from 'react';
 import githubIcon from "../assets/images/github-svgrepo-com.svg";
-
-export default function ProjectCard({ title, description, image, technologies, github }) {
+// import liveIcon from "../assets/images/live-svgrepo-com.svg";
+import videoIcon from "../assets/images/play.png";
+export default function ProjectCard({ title, description, image, technologies, github, live, video }) {
   return (
     <div className="flex flex-col justify-center w-full max-w-sm p-5 transition-all duration-300 bg-white border shadow-sm rounded-3xl border-slate-100 hover:shadow-xl hover:-translate-y-1">
 
@@ -30,17 +31,38 @@ export default function ProjectCard({ title, description, image, technologies, g
         ))}
       </div>
 
-      {/* زر الـ GitHub المتناسق في المنتصف */}
-      <div className="flex justify-center mt-6">
+  
+      <div className="flex justify-center gap-4 mt-6">
         <a 
           href={github} 
           target="_blank" 
           rel="noopener noreferrer"
-          className="flex flex-row items-center justify-center gap-2 px-5 py-1.5 bg-black text-white text-xs font-semibold rounded-full hover:bg-cyan-600 transition-colors duration-300 shadow-sm"
+          className="flex flex-row items-center justify-center gap-2 px-3 py-1.5 bg-black text-white text-xs font-semibold rounded-full hover:bg-slate-600 transition-colors duration-300 shadow-sm"
         >
           <img className='w-5 h-5 invert' src={githubIcon} alt="GitHub icon" />
           <span>GitHub</span>
         </a>
+
+        <a 
+          href={live}
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="flex flex-row items-center justify-center gap-2 px-3 py-1.5 bg-cyan-600 text-white text-xs font-semibold rounded-full hover:bg-cyan-500 transition-colors duration-300 shadow-sm cursor-pointer"
+        >
+          {/* <img className='w-5 h-5 invert' src={githubIcon} alt="GitHub icon" /> */}
+          <span>Live Demo</span>
+        </a>
+        
+        <a 
+          href={video}
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="flex flex-row items-center justify-center gap-2 px-3 py-1.5 bg-green-600 text-white text-xs font-semibold rounded-full hover:bg-green-400 transition-colors duration-300 shadow-sm cursor-pointer"
+        >
+          <img className='w-5 h-5 invert' src={videoIcon} alt="Video icon" />
+          <span>Video</span>
+        </a>
+        
       </div>
 
     </div>
