@@ -73,7 +73,7 @@ export const projects = [
     description: "A job site highlighting the advantages of remote work.",
     technologies: ["JS", "HTML" ,"CSS","Bootstrap"],
     github: "https://github.com/Amirat-Alqamar/Hire-Website.git",
-    live: "https://https://amirat-alqamar.github.io/Hire-Website/",
+    live: "https://amirat-alqamar.github.io/Hire-Website/",
     video:"https://not-found"
   },
   {
@@ -94,7 +94,7 @@ export const projects = [
   technologies: [ "HTML" ,"CSS","JS","React","Tailwind CSS","<API>","Laravel"],
   github: "https://github.com/Amirat-Alqamar/Complaints-Platform-Project",
   live: "https://not-found",
-  video:"https://not-found"
+  video:"https://drive.google.com/drive/folders/1uw555EGHQR65rsep146g0icztpHqz4KI?usp=sharing"
   },
   {
   id: 9,
