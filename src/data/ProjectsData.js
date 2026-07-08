@@ -84,7 +84,7 @@ export const projects = [
   technologies: [ "HTML" ,"CSS","JS","Tailwind CSS","Laravel"],
   github: "https://github.com/Amirat-Alqamar/school-system.git",
   live: "https://not-found",
-  video:"https://drive.google.com/file/d/1Ujb9TYiwM0MkQCXdcBdP6IE_5BAQuTX1/view?usp=drive_link"
+  video:"https://drive.google.com/file/d/1xzBVzk4xqbBUMnRRkTkhGjHnbqeXmdBp/view?usp=sharing"
   },
   {
   id: 8,
