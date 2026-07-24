@@ -2,8 +2,8 @@ import React from "react";
 import codeIcon from "../assets/images/code-svgrepo-com (1).svg";
 import folderIcon from "../assets/images/folder-svgrepo-com.svg";
 import graduationIcon from "../assets/images/graduation-cap-svgrepo-com.svg";
-import aboutPhoto from "../assets/images/profilephoto2.png";
-
+// import aboutPhoto from "../assets/images/profilephoto2.png";
+import Photo from "../assets/images/undraw_code-review_jdgp.svg";
 function About(props) {
   return (
     <div className="container px-4 mx-auto">
@@ -57,7 +57,8 @@ function About(props) {
 
         {/* الصورة الشخصية الافتراضية */}
         <div className="w-[60%] md:w-[40%] flex justify-center items-center">
-          <img className="object-contain w-full h-auto max-w-md" src={aboutPhoto} alt="Profile" />
+          {/* <img className="object-contain w-full h-auto max-w-md" src={aboutPhoto} alt="Profile" /> */}
+          <img className="object-contain w-full h-auto max-w-md" src={Photo} alt="Profile" />
         </div>
         
       </section>

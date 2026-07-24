@@ -1,5 +1,6 @@
 import React from 'react';
 import profilePhoto from "../assets/images/profilephoto1.png";
+import profile from "../assets/images/undraw_programmer_raqr.svg";
 import githubIcon from "../assets/images/github-svgrepo-com.svg";
 import instagramIcon from "../assets/images/instagram-svgrepo-com.svg";
 import LinkeinIcon from "../assets/images/linkedin-linked-in-svgrepo-com.svg";
@@ -81,7 +82,8 @@ function Home() {
 
                 {/* الصورة الشخصية */}
                 <div className="w-[70%] md:w-[40%] flex justify-center items-center">
-                     <img className="object-contain w-full h-auto max-w-sm" src={profilePhoto} alt="Amira Illustration" />
+                     {/* <img className="object-contain w-full h-auto max-w-sm" src={profilePhoto} alt="Amira Illustration" /> */}
+                     <img className="object-contain w-full h-auto max-w-sm" src={profile} alt="Amira Illustration" />
                 </div>
                
             </section>
