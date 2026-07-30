@@ -10,6 +10,11 @@ import Projects from './Components/Projects'
 import Footer from './Components/Footer'
 import Contact from './Components/Contact'
 import Loader from './Components/Loder'
+import TechStack from './Components/TechStack'
+import Experience from './Components/Experience'
+import Certificates from './Components/Certificates'
+import CurrentGoals from './Components/CurrentGoals'
+import WhyHireMe from './Components/WhyHireMe'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -20,7 +25,12 @@ function App() {
       <Navbar/>
       <Home/>
       <About/>
+      <TechStack/>
       <Projects/>
+      <Experience/>
+      <Certificates/>
+      <WhyHireMe/>
+      <CurrentGoals/>
       <Contact/>
       <Footer/>
       
